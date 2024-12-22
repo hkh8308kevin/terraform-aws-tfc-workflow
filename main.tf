@@ -22,7 +22,7 @@ provider "aws" {
       name        = "${var.prefix}-vpc-${var.region}"
       environment = var.environment
       project = "Coffee-Mug-Cake"
-      owner = "Jerry"
+      owner = "Jerry & tom"
     }
   }
 }
