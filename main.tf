@@ -21,6 +21,7 @@ provider "aws" {
     tags = {
       name        = "${var.prefix}-vpc-${var.region}"
       environment = var.environment
+      project = "Coffee-Mug-Cake"
     }
   }
 }
